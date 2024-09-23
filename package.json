@@ -1,0 +1,27 @@
+{
+  "name": "session-experiment-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "fathom-client": "3.6.0",
+    "iron-session": "^8.0.3",
+    "next": "14.2.13",
+    "react": "^18",
+    "react-dom": "^18",
+    "swr": "^2.2.5",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
